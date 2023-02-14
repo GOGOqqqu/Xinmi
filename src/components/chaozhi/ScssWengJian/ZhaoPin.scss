@@ -1,0 +1,335 @@
+.zhao {
+  width: 100%;
+  background-color: rgb(235, 234, 233);
+  margin-bottom: 6vh;
+
+  .tou {
+    position: fixed;
+    top: 0px;
+    z-index: 69;
+    width: 100%;
+    line-height: 6vh;
+    font-size: 13px;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    text-align: center;
+    background-color: #fff;
+
+    .zhao-tou {
+      width: 100%;
+      display: flex;
+
+      div {
+        width: 20%;
+      }
+
+      .hi {
+        width: 100%;
+        position: relative;
+      }
+
+      .jia {
+        color: rgba(81, 65, 65, 0.8);
+        font-size: 15px;
+      }
+
+      .jia::after {
+        content: "";
+        width: 30px;
+        height: 3px;
+        position: absolute;
+        left: calc((100% - 30px) / 2);
+        bottom: 8px;
+        background-color: rgb(14, 16, 16);
+      }
+    }
+  }
+
+  .zhao-content {
+    margin-top: 6vh;
+    // width: calc(100% - 20px);
+    padding: 0px 10px;
+
+    .content {
+      width: 100%;
+
+      .img1 {
+        width: 100%;
+        height: 20vh;
+      }
+
+      .content-nei {
+        // width: calc(100% - 20px);
+        padding: 0px 10px;
+        padding-top: 1vh;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+
+        .nei {
+          height: 28vh;
+          float: left;
+          width: calc((100% - 10px) / 3);
+          margin-right: 5px;
+          position: relative;
+          margin-bottom: 1vh;
+
+          .img2 {
+            width: 100%;
+            height: 13vh;
+          }
+
+          .hong {
+            width: 100%;
+            position: absolute;
+            top: 10vh;
+            font-size: 12px;
+            height: 3vh;
+            line-height: 3vh;
+            text-align: center;
+            color: #fff;
+            background-color: rgb(249, 103, 101);
+          }
+
+          .biao {
+            height: 5.5vh;
+            line-height: 2.75vh;
+            font-size: 15px;
+            margin-bottom: 1px;
+            // white-space: nowrap;
+            overflow: hidden;
+            // text-overflow: ellipsis;
+            color: rgb(57, 60, 64);
+          }
+
+          .text1 {
+            font-size: 13px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: rgb(161, 159, 160);
+            // font-weight: 600;
+          }
+
+          .text2 {
+            height: 4vh;
+            position: relative;
+
+            .span1 {
+              line-height: 4vh;
+              font-size: 14px;
+              color: red;
+            }
+
+            .span2 {
+              // position: absolute;
+              // right: 5vh;
+              transform: scaleY(0.5);
+              transform-origin: bottom;
+              // bottom: 0px;
+              font-size: 12px;
+              text-decoration: line-through;
+              color: rgb(161, 159, 160);
+            }
+
+            .active {
+              display: none;
+            }
+
+            .lu {
+              color: rgb(63, 153, 37);
+            }
+
+            .img3 {
+              position: absolute;
+              top: 0.5vh;
+              right: 0px;
+              height: 3.5vh;
+            }
+
+            .zi {
+              position: absolute;
+              right: 0;
+              top: 0;
+              z-index: 61;
+              padding: 1px;
+              font-size: 12px;
+              height: 12px;
+              width: 13px;
+              text-align: center;
+              border-radius: 50%;
+              background-color: red;
+              color: #fff;
+            }
+          }
+
+          .text3 {
+            border-radius: 999px;
+            border: 1px solid red;
+            color: red;
+            padding: 2px 8px;
+            line-height: 3vh;
+            font-size: 12px;
+          }
+
+          .actives {
+            display: none;
+          }
+        }
+
+        .nei:nth-child(3n) {
+          margin-right: 0px;
+        }
+      }
+    }
+
+    .content2 {
+      width: 100%;
+      margin-top: 1vh;
+
+      .content2-tou {
+        padding: 10px;
+        height: 14vh;
+        width: calc(100% - 20px);
+        background-color: #fff;
+        margin-top: 1vh;
+
+        .tou-left {
+          float: left;
+          width: 30%;
+
+          img {
+            width: 100%;
+            height: 14vh;
+          }
+        }
+
+        .tou-right {
+          float: right;
+          width: calc(67% - 10px);
+          padding-right: 10px;
+          margin-left: 3%;
+          font-size: 13px;
+          position: relative;
+
+          .right-text1 {
+            margin-top: 1vh;
+            height: 3vh;
+            font-size: 16px;
+            line-height: 3vh;
+
+            .jia {
+              font-weight: 600;
+            }
+          }
+
+          .right-text2 {
+            height: 2vh;
+            line-height: 2vh;
+            overflow: hidden;
+            color: rgb(119, 120, 121);
+
+            .shuzi {
+              margin-left: 5px;
+            }
+          }
+
+          .right-text3 {
+            height: 4vh;
+            line-height: 4vh;
+
+            span {
+              width: 30px;
+              padding: 3px;
+              color: rgb(103, 156, 165);
+              background-color: rgb(190, 223, 243);
+            }
+
+            .kai {
+              margin-left: 15px;
+            }
+          }
+
+          .right-text4 {
+            height: 4vh;
+            line-height: 4vh;
+
+            .span1 {
+              font-size: 20px;
+              color: red;
+            }
+
+            .span2 {
+              margin-left: 3px;
+              font-size: 15px;
+              color: rgb(162, 162, 162);
+            }
+
+            .span3 {
+              text-decoration: line-through;
+              margin-left: 5px;
+              font-size: 12px;
+              color: rgb(162, 162, 162);
+            }
+          }
+
+          .right-text5 {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            padding: 3px 2px 1px 8px;
+            border-bottom-left-radius: 8px;
+            color: #fff;
+            background: linear-gradient(to right,
+                rgb(247, 102, 101),
+                rgb(247, 226, 105));
+          }
+
+          .right-text6 {
+            position: absolute;
+            bottom: 0.5vh;
+            right: 0px;
+            width: 3.5vh;
+          }
+
+          .active {
+            // display: none;
+          }
+
+          .zi {
+            position: absolute;
+            right: 0;
+            bottom: 3.1vh;
+            // z-index: 61;
+            padding: 2px;
+            font-size: 12px;
+            height: 12px;
+            width: 12px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: red;
+            color: #fff;
+          }
+        }
+      }
+
+      .content2-tou:first-child {
+        margin-top: 0vh;
+      }
+    }
+  }
+}
+
+.ying {
+  display: none;
+}
+
+.luse {
+  color: rgb(121, 177, 114) !important;
+}
+
+.shang {
+  margin-top: 2vh;
+}
+
+.active {
+  display: none;
+}
